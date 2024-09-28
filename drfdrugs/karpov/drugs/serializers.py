@@ -4,6 +4,8 @@ from drugs.models import Drugs
 
 
 class DrugsSerializer(serializers.ModelSerializer):
+    photo = serializers.ImageField(required=False)
     class Meta:
         model = Drugs
-        fields = ('title', 'group_id')
+        fields = ('title', 'description', 'group','photo')
+

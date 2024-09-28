@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49578105-dd2f-4643-81fe-ba9b36da552e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drfdrugs/drugs/serializers.py" afterDir="false" />
+    <list default="true" id="49578105-dd2f-4643-81fe-ba9b36da552e" name="Changes" comment="check">
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/IMG_2576.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/IMG_2584.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfdrugs/karpov/drugs/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfdrugs/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +41,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SVKNL"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SVKNL/DRFDrugs.git&quot;,
+    &quot;accountId&quot;: &quot;70b4eafe-1df4-47cd-b53e-13c28b52ea95&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2meLBcSI4pItKMroyqluEGf0ZaO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,12 +64,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,6 +86,30 @@
       <option name="presentableId" value="Default" />
       <updated>1727431960972</updated>
     </task>
+    <task id="LOCAL-00001" summary="check">
+      <option name="closed" value="true" />
+      <created>1727437606938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727437606938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="check" />
+    <option name="LAST_COMMIT_MESSAGE" value="check" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/drfdrugs/karpov/karpov/urls.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
