@@ -17,13 +17,16 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework import routers
+from drugs.views import *
 
-from drugs.views import DrugsListCreateAPIView, DrugsUpdateAPIView, DrugsAPIDetailView
+router = routers.SimpleRouter()
+router.register(r'drugs', DrugsViewSet)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/v1/drugslist/', DrugsListCreateAPIView.as_view()),
-    path('api/v1/drugslist/<int:pk>', DrugsUpdateAPIView.as_view()),
-    path('api/v1/drugsdetail/<int:pk>', DrugsAPIDetailView.as_view()),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+                  path('admin/', admin.site.urls),
+                  path('api/v1/', include(router.urls)),
+
+
+              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
