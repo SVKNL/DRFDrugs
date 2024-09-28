@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49578105-dd2f-4643-81fe-ba9b36da552e" name="Changes" comment="check">
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/IMG_2576.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/IMG_2584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfdrugs/karpov/drugs/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drfdrugs/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/drugs/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfdrugs/manage.py" beforeDir="false" />
-    </list>
+    <list default="true" id="49578105-dd2f-4643-81fe-ba9b36da552e" name="Changes" comment="check" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727437606938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="check">
+      <option name="closed" value="true" />
+      <created>1727523377544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727523377544</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
